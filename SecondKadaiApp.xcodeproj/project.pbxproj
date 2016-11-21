@@ -12,6 +12,7 @@
 		84225B551DE1E780008F9B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84225B531DE1E780008F9B83 /* Main.storyboard */; };
 		84225B571DE1E780008F9B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84225B561DE1E780008F9B83 /* Assets.xcassets */; };
 		84225B5A1DE1E780008F9B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84225B581DE1E780008F9B83 /* LaunchScreen.storyboard */; };
+		84225B621DE1E913008F9B83 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84225B611DE1E913008F9B83 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84225B561DE1E780008F9B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84225B591DE1E780008F9B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84225B5B1DE1E780008F9B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84225B611DE1E913008F9B83 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				84225B4F1DE1E780008F9B83 /* AppDelegate.swift */,
 				84225B511DE1E780008F9B83 /* ViewController.swift */,
 				84225B531DE1E780008F9B83 /* Main.storyboard */,
+				84225B611DE1E913008F9B83 /* ResultViewController.swift */,
 				84225B561DE1E780008F9B83 /* Assets.xcassets */,
 				84225B581DE1E780008F9B83 /* LaunchScreen.storyboard */,
 				84225B5B1DE1E780008F9B83 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				84225B521DE1E780008F9B83 /* ViewController.swift in Sources */,
 				84225B501DE1E780008F9B83 /* AppDelegate.swift in Sources */,
+				84225B621DE1E913008F9B83 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K9D6C8H335;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.segayan3.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K9D6C8H335;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.segayan3.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
